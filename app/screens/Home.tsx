@@ -1,12 +1,10 @@
 import {
   View,
   Text,
-  Alert,
   TouchableOpacity,
   ActivityIndicator,
 } from "react-native";
 import React, { useEffect, useState } from "react";
-import { UserStoreType } from "../types/UserStoreType";
 import { StyleSheet } from "react-native";
 import { addDoc, collection, onSnapshot } from "firebase/firestore";
 import { db } from "../../firebaseConfig";

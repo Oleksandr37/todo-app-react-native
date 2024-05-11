@@ -1,4 +1,4 @@
-import { View, Text, TextInput, Button, Alert } from "react-native";
+import { View, Text, TextInput, Button } from "react-native";
 import React, { useState } from "react";
 
 import { StyleSheet } from "react-native";
@@ -6,7 +6,6 @@ import { z } from "zod";
 import { Controller, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { NavigationProp, ParamListBase } from "@react-navigation/native";
-import { UserStoreType } from "../types/UserStoreType";
 import { observer } from "mobx-react";
 import { useStore } from "../context/useStore";
 

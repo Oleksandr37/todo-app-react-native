@@ -1,12 +1,8 @@
 import {
   View,
-  Text,
   TextInput,
   Button,
   StyleSheet,
-  Alert,
-  Touchable,
-  TouchableOpacity,
 } from "react-native";
 import React, { useState } from "react";
 import { CreateTodo } from "../types/TodosTypes";
